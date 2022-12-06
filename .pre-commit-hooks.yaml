@@ -1,5 +1,5 @@
 -   id: centralized-hook
     name: centralized pre-commit hooks
-    language: script
+    language: python
     entry: ./run-centralized-hooks
     verbose: true
