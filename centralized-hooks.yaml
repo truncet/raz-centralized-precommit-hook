@@ -33,7 +33,6 @@ repos:
       hooks:
       - id: flake8
   -   repo: https://github.com/pycqa/pylint
-      rev: 2.15.8
       hooks:
       -  id: pylint
          args: ["--max-line-length=80", "--disable=E1101,R0912"]
